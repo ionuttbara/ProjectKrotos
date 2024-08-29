@@ -1,0 +1,17 @@
+#include "resource.h"
+
+// Menu resource
+IDR_MENU1 MENU
+BEGIN
+    POPUP "&Refresh Rate"
+    BEGIN
+        MENUITEM "Slow (3s)", ID_MENU_SLOW
+        MENUITEM "Normal (1s)", ID_MENU_NORMAL
+        MENUITEM "Fast (0.5s)", ID_MENU_FAST
+        MENUITEM "Very Fast (0.25s)", ID_MENU_VERY_FAST
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "About", ID_MENU_ABOUT
+    END
+END

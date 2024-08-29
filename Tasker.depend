@@ -1,0 +1,112 @@
+# depslib dependency file v1.0
+1724960085 source:e:\projects\development\tasker\main.c
+	<windows.h>
+	"gui.h"
+
+1724960778 source:e:\projects\development\tasker\gui.c
+	"resource.h"
+	"process_manager.h"
+	"task_manager_actions.h"
+	"menu.h"
+	"tab_process.h"
+	"tab_diskgraph.h"
+	"tab_gpugraph.h"
+	"tab_cpugraph.h"
+	<commctrl.h>
+	<commdlg.h>
+	<tchar.h>
+	<windows.h>
+	<shellapi.h>
+	<psapi.h>
+
+1724793678 e:\projects\development\tasker\gui.h
+	<windows.h>
+
+1724959908 e:\projects\development\tasker\process_manager.h
+	<windows.h>
+
+1724959922 source:e:\projects\development\tasker\process_manager.c
+	"process_manager.h"
+	<tlhelp32.h>
+	<psapi.h>
+	<commctrl.h>
+	<stdio.h>
+	<tchar.h>
+	<stdlib.h>
+	<windows.h>
+
+1724958621 e:\projects\development\tasker\resource.h
+
+1724958218 source:e:\projects\development\tasker\resource.rc
+	"resource.h"
+
+1724957929 source:e:\projects\development\tasker\task_manager_actions.c
+	"task_manager_actions.h"
+	<windows.h>
+	<psapi.h>
+	<shellapi.h>
+	<commctrl.h>
+	<tchar.h>
+
+1724839097 e:\projects\development\tasker\task_manager_actions.h
+	<windows.h>
+
+1724960151 source:e:\projects\development\tasker\menu.c
+	"menu.h"
+	"resource.h"
+	"task_manager_actions.h"
+	"buttons.h"
+	<shellapi.h>
+	<tchar.h>
+	<windows.h>
+	<commctrl.h>
+	<commdlg.h>
+
+1724949446 e:\projects\development\tasker\menu.h
+	<windows.h>
+
+1724957451 source:e:\projects\development\tasker\buttons.c
+	"buttons.h"
+	<windows.h>
+
+1724957070 e:\projects\development\tasker\buttons.h
+	<windows.h>
+
+1724959467 e:\projects\development\tasker\tab_process.h
+	<windows.h>
+
+1724959488 e:\projects\development\tasker\tab_diskgraph.h
+	<windows.h>
+
+1724959506 e:\projects\development\tasker\tab_gpugraph.h
+	<windows.h>
+
+1724961015 e:\projects\development\tasker\tab_cpugraph.h
+	<windows.h>
+
+1724961245 source:e:\projects\development\tasker\tab_diskgraph.c
+	"tab_diskgraph.h"
+	<windows.h>
+	<tchar.h>
+	<stdio.h>
+	<stdlib.h>
+	<strsafe.h>
+
+1724960537 source:e:\projects\development\tasker\tab_gpugraph.c
+	"tab_gpugraph.h"
+	<windows.h>
+	<tchar.h>
+
+1724961074 source:e:\projects\development\tasker\tab_cpugraph.c
+	"tab_cpugraph.h"
+	<windows.h>
+	<tchar.h>
+	<psapi.h>
+	<stdio.h>
+
+1724960537 source:e:\projects\development\tasker\tab_process.c
+	"tab_process.h"
+	<commctrl.h>
+	<tchar.h>
+	"process_manager.h"
+
